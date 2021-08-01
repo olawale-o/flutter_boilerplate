@@ -1,0 +1,19 @@
+include: package:lints/recommended.yaml
+analyzer:
+  exclude: [build/**]
+  language:
+    strict-raw-types: true
+  strong-mode:
+    implicit-casts: false
+
+linter:
+  rules:
+    - cancel_subscriptions
+    - prefer_single_quotes
+    - avoid_print
+    - always_require_non_null_named_parameters
+    - camel_case_types
+    - file_names
+    - missing_whitespace_between_adjacent_strings
+    - prefer_const_constructors
+    - parameter_assignments
