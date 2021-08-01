@@ -10,3 +10,7 @@ linter:
   rules:
     - cancel_subscriptions
     - prefer_single_quotes
+    - avoid_print
+    - always_require_non_null_named_parameters
+    - camel_case_types
+    - file_names
